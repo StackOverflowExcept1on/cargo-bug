@@ -1,0 +1,7 @@
+[package]
+name = "demo-a"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+renamed_once_cell.workspace = true

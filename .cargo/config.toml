@@ -1,0 +1,8 @@
+[registry]
+default = "my-registry"
+
+[registries]
+my-registry = { index = "http://127.0.0.1:35503/git", token = "empty" }
+
+[net]
+git-fetch-with-cli = true

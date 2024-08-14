@@ -1,0 +1,12 @@
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+resolver = "2"
+members = ["demo-a", "demo-b"]
+
+[workspace.dependencies]
+demo-a = { version = "0.1.0", path = "demo-a", registry = "my-registry" }
+demo-b = { version = "0.1.0", path = "demo-b", registry = "my-registry" }
+renamed_once_cell = { version = "1.19.0", package = "once_cell" }
